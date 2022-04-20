@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    background:#99ae8d;
+}
+
+.wrap {
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#starBg {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#starBg .starBgImg {
+    position: absolute;
+    transition: all 4.5s;
+    width: 80px;
+}
+
+#starBg .starBgImg img {
+    animation: imgSize 1s infinite;
+}
